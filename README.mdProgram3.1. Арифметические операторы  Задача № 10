@@ -1,0 +1,20 @@
+﻿    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    namespace Program55
+    {
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 8;
+            int b = 3;
+            // Порядок: умножение и деление перед сложением/вычитанием
+            // b * 2 = 6; a / b = 2; затем 8 - 6 + 2 = 4
+            int c = a - b * 2 + a / b;
+            Console.WriteLine(c); // 4
+        }
+        }
